@@ -26,8 +26,8 @@ Compilation and programming tools are also needed. Below are the recommended one
 List of electronics component nedded:
 
 1. ATtiny2313 (or equivalent)
-2. Crystal quartz oscilator 11.0
-3. 4 Sigit seven segment display
+2. Crystal quartz oscilator 11.0Mhz
+3. 4 Digit seven segment display
 4. 22pF capacitors
 5. Resistor (view schematic)
 6. Button switches
@@ -36,6 +36,6 @@ List of electronics component nedded:
 
 ### Tools needed
 
-1. Programmer. I've used a (Pololu USB AVR Programmer v2)[https://www.pololu.com/product/3170], but you can use another one compatible with the mcu (PICkit 2-3, AVRISP XPII... )
+1. Programmer. I've used a (Pololu USB AVR Programmer v2)[https://www.pololu.com/product/3170], but you can use another one compatible with the mcu (PICkit, AVRISP XPII... )
 2. Compiler. Mikro C AVR Compiler. There are a free versión limited by de memory size of the program to burn into de mcu.
 3. Software to load hex file into mcu, using a programmer. I've used (AVRDudess)[https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/]
